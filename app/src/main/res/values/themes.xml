@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Convoca" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Splash screen shown while the app process starts up. -->
+    <style name="Theme.Convoca.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.Convoca</item>
+    </style>
+</resources>
